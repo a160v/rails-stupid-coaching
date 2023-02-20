@@ -1,0 +1,16 @@
+<div class="container pt-5">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-6 col-lg-4">
+      <h1>Stupid coach</h1>
+      <div>
+        <h4><%= params[:question] %></h4>
+          <p> <em>You</em></p>
+      </div>
+      <div .bg-light>
+        <h4><%= @answer %></h4>
+          <p> <em>Your coach</em></p>
+      </div>
+      <%= link_to "Ask a new question", ask_path, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>
